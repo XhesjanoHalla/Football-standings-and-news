@@ -1,0 +1,122 @@
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+ }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("images/wp4275519.jpg");
+}
+
+
+input[type=text], input[type=password], input[type=email]{
+  width: 40%;
+  padding: 12px 20px;
+ 
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 2px rgb(134 140 160 / 2%);
+  border-radius: 4px;
+  font-family: var(--body-font);
+}
+
+a{
+  color: white;
+  font-family: var(--body-font);
+  text-decoration: none;
+
+}
+
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+
+.container2 {
+  margin-top: 2%;
+  padding-inline: 35%;
+  margin-left: auto;
+  display:flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+span.psw {
+  /* float: right; */
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  
+ 
+}
+ .cancelbtn {
+  background-color: black;
+  border: none;
+  padding: 10px 26px;
+  color: #fff;
+  border-radius: 20px;
+  margin-block: 2%;
+  cursor: pointer;
+  transition: 0.3s;
+  white-space: nowrap;
+  margin-inline: 35rem;
+display: flex; 
+ justify-content: center;
+ align-items: center;
+ padding: auto;
+ 
+}
+
+.cancelbtn:hover,.content-button:hover{
+  background-color: white;
+  color: #000;
+
+}
+.containerContact input {
+
+width: 50%;
+padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 2px rgb(134 140 160 / 2%);
+  border-radius: 4px;
+  font-family: var(--body-font);
+ 
+
+  font-family: var(--body-font);
+}
+
+
+
+.calciohub{
+  width: 5%;
+}
+
+.or-text{
+  font-weight: bold;
+  font-family: inherit;
+  color:white;
+}
+.container5{
+  width: 90%;
+  margin: 2% 32%;
+}
